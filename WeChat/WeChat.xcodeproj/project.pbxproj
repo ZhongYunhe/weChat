@@ -15,6 +15,7 @@
 		6D4636901F04C4AE0052F951 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D46368E1F04C4AE0052F951 /* LaunchScreen.storyboard */; };
 		6D46369B1F04C4AF0052F951 /* WeChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D46369A1F04C4AF0052F951 /* WeChatTests.m */; };
 		6D4636A61F04C4AF0052F951 /* WeChatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4636A51F04C4AF0052F951 /* WeChatUITests.m */; };
+		6D4636B51F04C50D0052F951 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4636B41F04C50D0052F951 /* Student.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		6D4636A11F04C4AF0052F951 /* WeChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D4636A51F04C4AF0052F951 /* WeChatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeChatUITests.m; sourceTree = "<group>"; };
 		6D4636A71F04C4AF0052F951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D4636B31F04C50D0052F951 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		6D4636B41F04C50D0052F951 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				6D4636841F04C4AE0052F951 /* AppDelegate.m */,
 				6D4636861F04C4AE0052F951 /* ViewController.h */,
 				6D4636871F04C4AE0052F951 /* ViewController.m */,
+				6D4636B31F04C50D0052F951 /* Student.h */,
+				6D4636B41F04C50D0052F951 /* Student.m */,
 				6D4636891F04C4AE0052F951 /* Main.storyboard */,
 				6D46368C1F04C4AE0052F951 /* Assets.xcassets */,
 				6D46368E1F04C4AE0052F951 /* LaunchScreen.storyboard */,
@@ -276,6 +281,7 @@
 				6D4636881F04C4AE0052F951 /* ViewController.m in Sources */,
 				6D4636851F04C4AE0052F951 /* AppDelegate.m in Sources */,
 				6D4636821F04C4AE0052F951 /* main.m in Sources */,
+				6D4636B51F04C50D0052F951 /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
