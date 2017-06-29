@@ -18,7 +18,18 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 }
-
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    
+    
+    //修改block之外的变量
+    __block int a = 0;
+    void (^foo)(void) = ^{
+        a = 1;
+    };
+     foo();
+    NSLog(@"a:%d",a);
+    
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
